@@ -1,0 +1,21 @@
+{
+	"name":"Top Voted On HackerNews",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Color in red the score of the top 5 voted posts on any given page of Hacker News",
+
+	"content_scripts":[
+		{
+			"matches":["https://news.ycombinator.com/*"],
+			"js": ["script.js"],
+			"run_at": "document_end"
+		}
+
+	],
+	
+	"browser_action": {
+		"default_icon":"icon.png",
+		"default_title": "Highlights the 10 top voted articles on HN"
+	}
+
+}
