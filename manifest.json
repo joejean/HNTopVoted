@@ -2,7 +2,7 @@
 	"name":"Top Voted On HackerNews",
 	"version": "0.0.1",
 	"manifest_version": 2,
-	"description": "Color in red the score of the top 5 voted posts on any given page of Hacker News",
+	"description": "Colors in red the score of 5 posts with the highest number of votes on any given page of Hacker News",
 
 	"content_scripts":[
 		{
